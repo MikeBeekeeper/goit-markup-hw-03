@@ -21,14 +21,13 @@
  body {
     font-family: 'Roboto' , sans-serif;
     color: var(--primary-color);
-    background-color: var(--primary-background-color);
  }
 
  .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
+  margin: 0 auto;
  }
 
  .section {
@@ -145,6 +144,14 @@ img {
 
   /* ----------------Hero-------------- */
 
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+.hero-container {
+  text-align: center;
+}
 
   .hero-title {
       font-weight: 900;
@@ -167,6 +174,8 @@ img {
       color:var(--white-color);
       cursor: pointer;
 
+      display: block;
+      margin: 0 auto;
       min-width: 216px;
       min-height: 50px;
 }
@@ -204,7 +213,10 @@ img {
 
   /* ----------------Work-------------- */
 
+.work {
+  padding-bottom: 94px;
 
+}
 .section-title {
       font-size: 36px;
       line-height: 1.17;
@@ -242,6 +254,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .team-item-text {
@@ -269,8 +282,6 @@ img {
 
   .examples-item {
     width: calc((100% - 60px) / 3 );
-    padding-bottom: 20px;
-    border-bottom: 1px solid #EEEEEE;;
   }
 
   
@@ -299,8 +310,6 @@ img {
       letter-spacing: var(--title-letter-spacing) ;
       color:var(--primary-color);
       
-      margin-top: 20px;
-      margin-bottom: 4px;
   }
 
   .examples-item-text {
@@ -310,19 +319,25 @@ img {
       color:var(--secondary-color);
   }
 
+    .border {
+      padding: 20px 24px;
+      border-bottom: 1px solid #EEEEEE;
+      border-left: 1px solid #EEEEEE;
+      border-right: 1px solid #EEEEEE;
+      
+    }
+
   /* ----------------Footer-------------- */
 
-.border {
-  border: 1px solid #EEEEEE;;
-}
+
 .foot {
   background-color: var(--secondary-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .foot-container {
   text-align: left;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
   .logo-foot {
